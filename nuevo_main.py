@@ -66,7 +66,9 @@ def visualizar_alumnos():
 
 print(f'Esta es la gran, super, hiper, mega aportación de Óscar al proyecto')
 
-# print(f'La nota media es {mostrar_nota_media(alumnos):.2f}')
+print(f'Me he visto en la obligación de añadir código, eso son un mínimo de 10 horas extras')
+
+print(f'La nota media es {mostrar_nota_media(alumnos):.2f}')
 
 def main():
     val = 0
