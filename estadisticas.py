@@ -1,11 +1,12 @@
 def media_notas(dict):
-    return sum(dict.values())/len(dict)
+    notas = [fila["nota"] for fila in dict]  
+    return sum(notas)/len(dict)
 
 
 def max_notas(dict):
-    notas = [nota for fila, nota in dict.items()]
-    return print(f"Nota más alta: {max(notas)}")
+        notas = [fila["nota"] for fila in dict]  
+        return print(f"Nota más alta: {max(notas)}")
 
 def min_notas(dict):
-    notas = [nota for fila, nota in dict.items()]
+    notas = [fila["nota"] for fila in dict]  
     return print(f"Nota más baja: {min(notas)}")
