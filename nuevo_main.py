@@ -1,3 +1,4 @@
+import estadisticas
 alumnos = [
     {"nombre": "Ana", "edad": 20, "nota": 8.5},
     {"nombre": "Luis", "edad": 22, "nota": 6.9},
@@ -60,15 +61,10 @@ def visualizar_alumnos():
     for i, alumno in enumerate(alumnos, start=1):
         print(f"Alumno {i}: {alumno}")
 
-
-# def mostrar_nota_media(diccionario):
-#     return sum(diccionario.values()) / len(diccionario)
-
 print(f'Esta es la gran, super, hiper, mega aportación de Óscar al proyecto')
 
 print(f'Me he visto en la obligación de añadir código, eso son un mínimo de 10 horas extras')
 
-print(f'La nota media es {mostrar_nota_media(alumnos):.2f}')
 
 def main():
     val = 0
